@@ -1,0 +1,120 @@
+.navigation-bar {
+  margin-top: 55px;
+  background-color: rgb(246, 246, 246);
+  height: 140px;
+  color: rgb(114, 157, 133);
+  font-size: 30px;
+
+  margin-bottom: 0;
+
+  display: grid;
+  grid-template-rows: 1fr 1fr; 
+  border-radius: 5px;
+
+
+}
+
+.navigation-bar-row-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+  margin-right: 50px;
+  min-width: 850px;
+  margin-top: 10px;
+
+}
+
+.navigation-bar-row-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: -10px;
+}
+
+.home-header-button,
+.defining-series-header-button,
+.coming-out-series-header-button,
+.differences-between-header-button {
+  background-color: rgb(246, 246, 246);
+  border: none;
+  font-size: 30px;
+  color: rgb(114, 157, 133);
+  cursor: pointer;
+  transition: opacity .15s;
+  vertical-align: top;
+
+  font-size: 28px;
+  font-family: 'Times New Roman';
+}
+
+.home-header-button:hover, 
+.defining-series-header-button:hover, 
+.coming-out-series-header-button:hover,
+.differences-between-header-button:hover {
+  opacity: .8;
+  text-decoration: underline;
+}
+
+.home-header-button:active, 
+.defining-series-header-button:active,
+.coming-out-series-header-button:active,
+.differences-between-header-button:active {
+  opacity: .5;
+}
+
+.lgbtq-holidays-header-button,
+.resources-header-button,
+.other-header-button {
+  background-color: rgb(246, 246, 246);
+  border: none;
+  font-size: 30px;
+  color: rgb(114, 157, 133);
+  cursor: pointer;
+  transition: opacity .15s;
+  vertical-align: top;
+
+  font-size: 28px;
+  font-family: 'Times New Roman';
+}
+
+.lgbtq-holidays-header-button:hover,
+.resources-header-button:hover,
+.other-header-button:hover {
+  opacity: .8;
+  text-decoration: underline;
+}
+
+.lgbtq-holidays-header-button:active,
+.resources-header-button:active,
+.other-header-button:active {
+  opacity: .5;
+}
+
+.leave-site {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+}
+
+.leave-site-button {
+  height: 76px;
+  width: 76px;
+  border-radius: 38px;
+  background-color: rgb(114, 157, 133);
+  color: rgb(211, 235, 218);
+  border: none;
+  transition: opacity .15s;
+  cursor: pointer;
+}
+
+.leave-site-button:hover {
+  opacity: .8;
+}
+
+.leave-site-button:active {
+  opacity: .5;
+}

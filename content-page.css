@@ -1,0 +1,28 @@
+.page-header {
+  color: rgb(114, 157, 133);
+  text-align: center;
+}
+
+.mission-statement-page-content {
+  display: grid;
+  grid-template-rows: 1fr;
+  margin-bottom: 200px;
+}
+
+.page-row {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  justify-items: center;
+  margin-right: 100px;
+}
+
+.mission-statement-gsa-logo {
+  height: 400px;
+}
+
+.mission-statement-description{
+  color: rgb(114, 157, 133);
+  text-align: left;
+  font-size: 24px;
+}

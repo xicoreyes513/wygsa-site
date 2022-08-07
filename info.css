@@ -1,0 +1,27 @@
+.info {
+  color: rgb(114, 157, 133);
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.info-logo {
+  flex: 1;
+}
+
+.info-gsa-logo {
+  height: 400px
+}
+
+.info-contact {
+  flex: 1;
+}
+
+.info-socials {
+  flex: 1;
+}
+
+.info-socials-instagram {
+  height: 20px;
+}

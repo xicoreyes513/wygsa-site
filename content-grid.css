@@ -1,0 +1,259 @@
+.quote {
+  text-align: center;
+  margin-top: 55px;
+  margin-bottom: 10px;
+  font-size: 26px;
+  color: rgb(114, 157, 133);
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+
+.content-grid {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  margin-top: 50px;
+  margin-bottom: 150px;
+
+  row-gap: 35px;
+}
+
+.content-grid-row-1 {
+  display: grid;
+  grid-template-columns: 2.1fr 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+
+  height: 300px;
+
+  column-gap: 35px;
+  margin-left: 35px;
+  margin-right: 35px;
+
+}
+
+.content-grid-row-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+
+  height: 300px;
+
+  column-gap: 35px;
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+.mission-statement,
+.about-us,
+.apply,
+.faqs,
+.instagram,
+.pioneer-chapter-instagram,
+.meet-us {
+  height: 100%;
+  width: 100%;
+
+  text-align: center;
+  border-radius: 10px;
+}
+
+.mission-statement-button,
+.about-us-button,
+.apply-button,
+.faqs-button,
+.instagram-button,
+.pioneer-chapter-instagram-button,
+.meet-us-button {
+  height: 100%;
+  width: 100%;
+
+  border-radius: 10px;
+  border: none;
+
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.08);
+  transition: box-shadow .15s;
+
+  cursor: pointer;
+}
+
+.mission-statement-button:hover,
+.about-us-button:hover,
+.apply-button:hover,
+.faqs-button:hover,
+.instagram-button:hover,
+.pioneer-chapter-instagram-button:hover,
+.meet-us-button:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.mission-statement-button:active,
+.about-us-button:active,
+.apply-button:active,
+.faqs-button:active,
+.instagram-button:active,
+.pioneer-chapter-instagram-button:active,
+.meet-us-button:active {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.about-us-button,
+.apply-button,
+.faqs-button,
+.instagram-button,
+.pioneer-chapter-instagram-button,
+.meet-us-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.mission-statement,
+.mission-statement-button {
+  background-color: rgb(255, 209, 209);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+.about-us,
+.about-us-button {
+  background-color: rgb(255, 225, 168);
+}
+
+.apply,
+.apply-button {
+  background-color: rgb(255, 248, 171);
+}
+
+.faqs,
+.faqs-button {
+  background-color: rgb(215, 253, 223);
+}
+
+.instagram,
+.instagram-button {
+  background-color: rgb(224, 255, 253);
+}
+
+.pioneer-chapter-instagram,
+.pioneer-chapter-instagram-button {
+  background-color: rgb(208, 208, 254);
+
+}
+
+.meet-us,
+.meet-us-button {
+  background-color: rgb(249, 222, 255);
+}
+
+
+.about-us-button-pic,
+.apply-button-pic,
+.faqs-button-pic,
+.pioneer-chapter-instagram-button-pic,
+.meet-us-button-pic {
+  flex: 1;
+  height: 100%;
+  width: 100%;
+}
+
+.instagram-button-pic {
+  flex: 4;
+  height: 100%;
+  width: 100%;
+}
+
+.about-us-img,
+.apply-img,
+.faqs-img,
+.pioneer-gsa-img,
+.meet-us-img {
+  height: 200px;
+}
+
+.instagram-img {
+  height: 150px;
+  padding-top: 20px;
+}
+
+.about-us-img {
+  padding-left: 20px;
+}
+
+.about-us-button-description,
+.apply-button-description,
+.faqs-button-description,
+.instagram-button-description,
+.pioneer-chapter-instagram-button-description,
+.meet-us-button-description {
+  flex: 2;
+
+  display: grid;
+  grid-template-rows: 50px 3fr;
+}
+
+.about-us-button-title,
+.apply-button-title,
+.faqs-button-title,
+.instagram-button-title,
+.pioneer-chapter-instagram-button-title,
+.meet-us-button-title {
+  font-family: 'Times New Roman';
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.about-us-button-title {
+  margin-left: -40px;
+}
+
+.about-us-button-info,
+.apply-button-info,
+.faqs-button-info,
+.instagram-button-info,
+.pioneer-chapter-instagram-button-info,
+.meet-us-button-info {
+  font-family: 'Times New Roman';
+  text-align: center;
+  font-size: 16px;
+  margin-top: -15px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.mission-statement-button-pic {
+  flex: 1;
+  height: 100%;
+  width: 100%;
+  padding-top: 10px;
+}
+
+.gsa-logo-transparent {
+  height: 280px;
+}
+
+.mission-statement-button-description {
+  flex: .8;
+
+  display: grid;
+  grid-template-rows: 50px 3fr;
+}
+
+.mission-statement-button-title {
+  font-family: 'Times New Roman';
+  font-weight: bold;
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+.mission-statement-button-info {
+  font-family: 'Times New Roman';
+  text-align: left;
+  padding-top: 10px;
+  font-size: 16px;
+}

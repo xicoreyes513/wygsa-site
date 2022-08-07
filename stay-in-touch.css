@@ -1,0 +1,36 @@
+.stay-in-touch {
+  background-color: rgb(114, 157, 133);
+  color: rgb(211, 235, 218);
+  height: 150px;
+  width: 100%;
+
+  text-align: center;
+  padding-top: 110px;
+  font-size: 38px;
+}
+
+.stay-in-touch-button {
+  font-family: 'Times New Roman';
+  background-color: rgb(114, 157, 133);
+  color: rgb(211, 235, 218);
+  height: 44px;
+  vertical-align: top;
+  font-size: 34px;
+
+  border: none;
+  border-radius: 5px;
+  border-color: rgb(246, 246, 246);
+
+  cursor: pointer;
+  transition: background-color .15s,
+    color .15s;
+}
+
+  .stay-in-touch-button:hover {
+    color: rgb(114, 157, 133);
+    background-color: rgb(211, 235, 218);
+  }
+
+  .stay-in-touch-button:active {
+    opacity: .7;
+  }

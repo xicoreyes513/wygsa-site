@@ -1,0 +1,102 @@
+.header {
+  background-color: rgb(211, 235, 218);
+  color: rgb(114, 157, 133);
+  height: 62px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(200, 200, 200);
+}
+
+.gsa-logo {
+  height: 55px;
+  margin-right: 20px;
+}
+
+.gsa-email {
+  font-size: 32px;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+.donate-button {
+  height: 38px;
+  width: 110px;
+
+  margin-top: 10px;
+
+  font-size: 22px;
+
+  background-color: rgb(114, 157, 133);
+  color:rgb(211, 235, 218);
+
+  border-radius: 19px;
+  border: none;
+
+  cursor: pointer;
+  transition: opacity .15s;
+
+  margin-right: 20px;
+}
+
+.donate-button:hover {
+  opacity: .8;
+}
+
+.donate-button:active {
+  opacity: .7;
+}
+
+.search-bar {
+  margin-top: 12px;
+  margin-right: 20px;
+
+
+  height: 30px;
+  width: 200px;
+
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: grey;
+
+  padding-left: 10px;
+}
+
+
+.search-bar::placeholder {
+  font-size: 14px;
+}
+
+.right-header {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.search-button {
+  background-color: white;
+  height: 30px;
+  width: 30px;
+
+  margin-top: 14px;
+  border: none;
+  margin-left: -52px;
+}
+
+.search-button-icon {
+  height: 30px;
+  border-radius: 15px;
+  margin-top: 0;
+  margin-left: -5px;
+}
+
