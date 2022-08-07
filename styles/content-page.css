@@ -17,7 +17,7 @@
   margin-right: 100px;
 }
 
-.mission-statement-gsa-logo {
+.page-content-gsa-logo {
   height: 400px;
 }
 
@@ -25,4 +25,10 @@
   color: rgb(114, 157, 133);
   text-align: left;
   font-size: 24px;
+}
+
+.faqs-description {
+  height: 100%;
+  width: 100%;
+  margin-right: 50px;
 }
