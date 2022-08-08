@@ -9,6 +9,14 @@
   margin-bottom: 200px;
 }
 
+.meet-us-page-content {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  margin-bottom: 200px;
+  margin-top: 50px;
+  row-gap: 50px;
+}
+
 .page-row {
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -32,3 +40,30 @@
   width: 100%;
   margin-right: 50px;
 }
+
+.meet-us-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+  margin-left: 250px;
+  margin-right: 250px;
+}
+
+.meet-us-person {
+  font-size: 20px;
+  height: 100%;
+  text-align: left;
+}
+
+
+.info-bullet {
+  margin-bottom: 10px;
+}
+
+.meet-us-person-img {
+  height: 600px;
+  border-radius: 200px;
+}
+
+
