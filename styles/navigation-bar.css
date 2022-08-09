@@ -129,12 +129,13 @@
   position: absolute;
   width: 100%;
   overflow: auto;
-  background-color: lightblue;
+  background-color: rgb(246, 246, 246);
   z-index: 1;
 }
 
 .dropdown-content a {
   color: rgb(114, 157, 133);
+  font-size: 20px;
   text-decoration: none;
   display: block;
 }
@@ -144,5 +145,33 @@
 }
 
 .dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-link {
+  margin-bottom: 5px;
+}
+
+.dropdown-content-other {
+  display: none;
+  position: absolute;
+  width: 300%;
+  overflow: auto;
+  background-color: rgb(246, 246, 246);
+  z-index: 1;
+}
+
+.dropdown-content-other a {
+  color: rgb(114, 157, 133);
+  font-size: 20px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content-other a:hover {
+  background-color: rgb(211, 235, 218);
+}
+
+.dropdown:hover .dropdown-content-other {
   display: block;
 }
