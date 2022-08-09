@@ -46,14 +46,16 @@
   grid-template-columns: 1fr 1fr;
   align-items: center;
   justify-items: center;
-  margin-left: 250px;
-  margin-right: 250px;
+  margin-left: 150px;
+  margin-right: 150px;
 }
 
 .meet-us-person {
   font-size: 20px;
   height: 100%;
   text-align: left;
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
 
@@ -63,7 +65,22 @@
 
 .meet-us-person-img {
   height: 600px;
+  max-width: 450px;
   border-radius: 200px;
+  margin-left: 25px;
+  margin-right: 25px;
+  object-fit: contain;
 }
 
+.meet-us-person-img-div {
+  height: 100%;
+}
 
+.meet-us-person-img-isabel {
+  height: 400px;
+  max-width: 450px;
+  border-radius: 133px;
+  margin-left: 25px;
+  margin-right: 25px;
+  object-fit: contain;
+}

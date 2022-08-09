@@ -118,3 +118,31 @@
 .leave-site-button:active {
   opacity: .5;
 }
+
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  width: 100%;
+  overflow: auto;
+  background-color: lightblue;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: rgb(114, 157, 133);
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: rgb(211, 235, 218);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
