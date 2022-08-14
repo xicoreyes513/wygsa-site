@@ -1,9 +1,29 @@
 .coming-out-series-page {
-    margin-left: 100px;
-    margin-right: 100px;
-    font-size: 20px;
-    margin-bottom: 200px;
-    margin-top: 80px;
+  margin-left: 100px;
+  margin-right: 100px;
+  font-size: 20px;
+  margin-bottom: 200px;
+  margin-top: 80px;
+}
+
+.coming-out-series-grid {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1f;
+  margin-bottom: 200px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 80px;
+  font-size: 20px;
+  
+}
+
+.coming-out-series-row {
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(114, 157, 133);
+
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 li {
