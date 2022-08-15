@@ -131,6 +131,8 @@
   overflow: auto;
   background-color: rgb(246, 246, 246);
   z-index: 1;
+
+  padding-left: 4px;
 }
 
 .dropdown-content a {
@@ -159,6 +161,8 @@
   overflow: auto;
   background-color: rgb(246, 246, 246);
   z-index: 1;
+
+  padding-left: 4px;
 }
 
 .dropdown-content-other a {
