@@ -1,5 +1,6 @@
 .navigation-bar {
   margin-top: 55px;
+  width: 100%;
   background-color: rgb(246, 246, 246);
   height: 140px;
   color: rgb(114, 157, 133);
@@ -19,9 +20,9 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   align-items: center;
   justify-items: center;
-  margin-right: 50px;
   min-width: 850px;
   margin-top: 10px;
+  background-color: rgb(246, 246, 246);
 
 }
 
@@ -30,9 +31,11 @@
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
   justify-items: center;
+
   margin-left: 150px;
   margin-right: 150px;
   margin-top: -10px;
+  background-color: rgb(246, 246, 246);
 }
 
 .home-header-button,
